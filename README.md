@@ -6,12 +6,13 @@ original dataset (Potts, 2011)
 
 
 
-"extract_genre_title" :
-include python code to web scrapping genres and titles for each of the review
+"url_info_extractor.ipynb" :
+This is used for scrapping movie titles and genres from IMDB website. 
+URLs of a movie are needed and the ULR must include the movie ID. For example, in "http://www.imdb.com/title/tt0893406/usercomments", "tt0893406" is the movie ID and anything after this is optional.
 
 
 
-"text_analysis":
+"Logistic_regression_models.ipynb":
 include training and testing model python code 
 one should run "machine learning using all the data" section then run "Sum of word scores model (General model 2 and genre specific models)" section with different lexicons and genre names to get the genre specific model output
 or run "machine learning using all the data" section then run "Sum of word scores model (General model 2 and genre specific models)" section with general lexicon to get the genreal model 1
